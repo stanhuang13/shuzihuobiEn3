@@ -3,9 +3,14 @@
   font-weight:400;
   font-style:normal;
   font-size:13px;
+  letter-spacing:normal;
   color:#333333;
+  vertical-align:none;
   text-align:center;
   line-height:normal;
+  text-transform:none;
+}
+._形状 {
 }
 ._一级标题 {
   font-family:'Arial Normal', 'Arial';
@@ -51,6 +56,11 @@
 ._文本段落 {
   text-align:left;
 }
+.form_hint {
+  color:#999999;
+}
+.form_disabled {
+}
 ._图片 {
 }
 .box_1 {
@@ -94,3 +104,4 @@
 }
 ._鼠标按下文本链接时 {
 }
+textarea, select, input, button { outline: none; }
